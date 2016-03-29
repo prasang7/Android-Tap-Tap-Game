@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Next Question"
+        android:background="@drawable/custombutton_greendark"
+        android:visibility="invisible"
+        android:id="@+id/bt_reaction_nextQuestion"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Restart"
+        android:background="@drawable/custombutton_greendark"
+        android:visibility="invisible"
+        android:id="@+id/bt_reaction_restart"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/ll_player2"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/bt_reactions_player2_no"
+            android:background="@color/colorgrey"
+            android:text="NO"
+            android:rotation="180"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/bt_reactions_player2_yes"
+            android:background="@color/colorgrey"
+            android:text="YES"
+            android:rotation="180"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Player 2"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:rotation="180"
+        android:background="@android:color/transparent"
+        android:id="@+id/bt_reactions_player2_name"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_player2"
+        android:layout_above="@+id/ll_player1"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#22303d"
+            android:text="Tap on yes to begin"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:rotation="180"
+            android:id="@+id/bt_reaction_player2_ques"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#22303d"
+            android:text="Tap on yes to begin"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/bt_reaction_player1_ques"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ll_player1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/bt_reactions_player1_yes"
+            android:background="@color/colorgrey"
+            android:text="YES"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/bt_reactions_player1_no"
+            android:background="@color/colorgrey"
+            android:text="NO"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Player 1"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:id="@+id/bt_reactions_player1_name"/>
+
+</RelativeLayout>

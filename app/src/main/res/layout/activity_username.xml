@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/custombutton_purpledark"
+        android:text="Enter Player Names"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/bt_username_entername"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_username_entername"
+        android:layout_above="@+id/bt_username_save"
+        android:orientation="vertical"
+        android:layout_marginBottom="70dp"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Player 1 Name"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp"
+            android:id="@+id/et_username_player_1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Player 2 Name"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp"
+            android:id="@+id/et_username_player_2"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/custombutton_purpledark"
+        android:text="SAVE"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bt_username_save"/>
+
+
+</RelativeLayout>

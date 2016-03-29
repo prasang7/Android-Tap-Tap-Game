@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/custombutton_purpledark"
+        android:text="Enter Your Name"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/bt_one_username_entername"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Your Name"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="25dp"
+        android:id="@+id/et_one_username_playerName"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/custombutton_purpledark"
+        android:text="SAVE"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bt_one_username_save"/>
+
+
+</RelativeLayout>

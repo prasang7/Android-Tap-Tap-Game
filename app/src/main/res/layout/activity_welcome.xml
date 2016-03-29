@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 PLAYER BATTLE"
+        android:id="@+id/bt_welcome_learnGaming"
+        android:layout_weight="1"
+        android:background="@drawable/custombutton_greendark"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 PLAYER CHALLENGE"
+        android:id="@+id/bt_welcome_onePlayer_challenge"
+        android:layout_weight="1"
+        android:background="@drawable/custombutton_greenlight"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOUND : ON"
+        android:id="@+id/bt_welcome_soundSwitch"
+        android:layout_weight="1"
+        android:background="@drawable/custombutton_blue"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:id="@+id/bt_welcome_Instructions"
+        android:layout_weight="1"
+        android:background="@drawable/custombutton_purplelight"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/bt_welcome_settings"
+        android:layout_weight="1"
+        android:background="@drawable/custombutton_purpledark"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"/>
+
+</LinearLayout>
